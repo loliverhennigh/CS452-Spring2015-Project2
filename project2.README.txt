@@ -1,3 +1,21 @@
 name, date, description
 
+Oliver Hennigh, Jacinda Ballantyne,    the 30th
+
+How to run code  (need cmake sorry)
+
+first enter directory
+second type    "mkdir build"
+third type     "cd build"
+forth type     "cmake .."
+fith type      "make"
+sixth type     "cd .."
+seventh type   "cd code"
+
+run code with  "./code"
+
+Move cursor around till you see a vibrating wall. The arrow keys move you around. The vibrating wall is a mess of springs and masses. The simulation starts with the middle piece drawn out a little ways. There is dampening in the springs and they are held on all sides. Verlet integration is used to update positions. There is texturing present however lighting was primitive. We tried calculate vertex normals dynamically however were somewhat unsuccessful. It looks ok though.
+
+
+
 be sure to include complete details of how to interact with your application
